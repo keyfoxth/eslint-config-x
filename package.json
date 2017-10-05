@@ -1,0 +1,21 @@
+{
+  "name": "eslint-plugin-k",
+  "version": "0.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keyfoxth/eslint-plugin-k.git"
+  },
+  "author": "Yuwei",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/keyfoxth/eslint-plugin-k/issues"
+  },
+  "homepage": "https://github.com/keyfoxth/eslint-plugin-k#readme",
+  "peerDependencies": {
+    "eslint": "^4.0.0"
+  },
+  "dependencies": {
+    "eslint-plugin-html": "^3.0.0"
+  }
+}
