@@ -1,8 +1,6 @@
 module.exports = {
   plugins: ['html'],
 
-  root: true,
-
   parserOptions: {
     ecmaVersion: 2017,
     sourceType: 'module',
@@ -50,7 +48,7 @@ module.exports = {
     // 链式调用时，点号需要放在第二行开头，不允许放在第一行结尾
     'dot-location': [2, 'property'],
     // 强制使用换行符（LF）结束文件
-    'eol-last': 2,
+    'eol-last': [2, 'always'],
     // 需要使用 ===、!==，与 null 比较时除外
     'eqeqeq': [2, 'always', { 'null': 'ignore' }],
     // 不允许函数名和执行它的括号之间有空格
@@ -67,6 +65,8 @@ module.exports = {
     'key-spacing': [2, { 'beforeColon': false, 'afterColon': true }],
     // 关键字前后需要有空格
     'keyword-spacing': [2, { 'before': true, 'after': true }],
+    // 限制换行符为 LF
+    'linebreak-style': [2, 'unix'],
     // 构造函数名称需要大写字母开头
     'new-cap': [2, { 'newIsCap': true, 'capIsNew': false }],
     // 调用没有参数的构造函数时需要括号
@@ -117,7 +117,7 @@ module.exports = {
     'no-floating-decimal': 2,
     // 不允许对一个函数申明重新赋值
     'no-func-assign': 2,
-     // 不允许对全局变量赋值
+    // 不允许对全局变量赋值
     'no-global-assign': 2,
     // 不允许对 setTimeout、setInterval 传入字符串
     'no-implied-eval': 2,
