@@ -1,21 +1,36 @@
 {
   "name": "eslint-plugin-k",
-  "version": "0.0.2",
-  "main": "index.js",
+  "version": "0.1.0",
+  "description": "Eslint plugin",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Yuwei",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/keyfoxth/eslint-plugin-k.git"
   },
-  "author": "Yuwei",
-  "license": "MIT",
+  "homepage": "https://github.com/keyfoxth/eslint-plugin-k#readme",
   "bugs": {
     "url": "https://github.com/keyfoxth/eslint-plugin-k/issues"
   },
-  "homepage": "https://github.com/keyfoxth/eslint-plugin-k#readme",
   "peerDependencies": {
     "eslint": "^4.0.0"
   },
+  "devDependencies": {
+    "eslint": "^4.0.0"
+  },
   "dependencies": {
-    "eslint-plugin-html": "^3.0.0"
-  }
+    "requireindex": "^1.1.0"
+  },
+  "license": "MIT"
 }
