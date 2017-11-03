@@ -1,21 +1,21 @@
 {
-  "name": "eslint-plugin-k",
-  "version": "0.1.0",
-  "description": "Eslint plugin",
+  "name": "eslint-config-k",
+  "version": "0.2.0",
+  "description": "Eslint config",
   "keywords": [
     "eslint",
-    "eslintplugin",
-    "eslint-plugin"
+    "eslintconfig",
+    "eslint-config"
   ],
   "author": "Yuwei",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/keyfoxth/eslint-plugin-k.git"
+    "url": "git+https://github.com/keyfoxth/eslint-config-k.git"
   },
-  "homepage": "https://github.com/keyfoxth/eslint-plugin-k#readme",
+  "homepage": "https://github.com/keyfoxth/eslint-config-k#readme",
   "bugs": {
-    "url": "https://github.com/keyfoxth/eslint-plugin-k/issues"
+    "url": "https://github.com/keyfoxth/eslint-config-k/issues"
   },
   "dependencies": {
     "eslint": "^4.10.0",
