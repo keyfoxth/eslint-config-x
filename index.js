@@ -5,6 +5,10 @@ module.exports = {
     'html'
   ],
 
+  extends: [
+    'plugin:url/recommended'
+  ],
+
   parserOptions: {
     ecmaVersion: 2017,
     sourceType: 'module',

@@ -19,7 +19,8 @@
   },
   "dependencies": {
     "eslint": "^4.10.0",
-    "eslint-plugin-html": "^3.2.2"
+    "eslint-plugin-html": "^3.2.2",
+    "eslint-plugin-url": "^1.0.0"
   },
   "license": "MIT"
 }
