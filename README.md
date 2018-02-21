@@ -1,3 +1,3 @@
 # eslint-config-k
 
-This is an ESLint config.
+This is a set of ESLint rules.

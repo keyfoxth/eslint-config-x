@@ -1,26 +1,20 @@
 {
   "name": "eslint-config-k",
   "version": "0.3.0",
-  "description": "Eslint config",
+  "description": "A set of ESLint rules.",
+  "main": "index.js",
   "keywords": [
     "eslint",
     "eslintconfig",
     "eslint-config"
   ],
   "author": "Yuwei",
-  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/keyfoxth/eslint-config-k.git"
   },
-  "homepage": "https://github.com/keyfoxth/eslint-config-k#readme",
-  "bugs": {
-    "url": "https://github.com/keyfoxth/eslint-config-k/issues"
-  },
-  "dependencies": {
-    "eslint": "^4.10.0",
-    "eslint-plugin-html": "^3.2.2",
-    "eslint-plugin-url": "^1.0.0"
+  "devDependencies": {
+    "eslint": ">=4.0.0"
   },
   "license": "MIT"
 }

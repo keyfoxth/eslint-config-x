@@ -1,37 +1,22 @@
 module.exports = {
   root: true,
-
-  plugins: [
-    'html'
-  ],
-
-  extends: [
-    'plugin:url/recommended'
-  ],
-
   parserOptions: {
     ecmaVersion: 2017,
     sourceType: 'module',
     ecmaFeatures: {
+      experimentalObjectRestSpread: true,
       jsx: true,
-      experimentalObjectRestSpread: true
+      modules: true
     }
   },
-
   env: {
     browser: true,
-    node: true,
     commonjs: true,
-    es6: true
+    es6: true,
+    node: true
   },
-
-  globals: {
-    window: false,
-    document: false,
-    navigator: false
-  },
-
   rules: {
+    // 强制 getter/setter 成对出现
     'accessor-pairs': 2,
     // 数组的括号内前后不允许有空格
     'array-bracket-spacing': [2, 'never'],
