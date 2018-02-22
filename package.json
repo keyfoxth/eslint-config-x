@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-k",
+  "name": "eslint-config-x",
   "version": "0.3.0",
   "description": "A set of ESLint rules.",
   "main": "index.js",
@@ -11,7 +11,7 @@
   "author": "Yuwei",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/keyfoxth/eslint-config-k.git"
+    "url": "git+https://github.com/keyfoxth/eslint-config-x.git"
   },
   "devDependencies": {
     "eslint": ">=4.0.0"
