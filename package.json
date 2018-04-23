@@ -2,19 +2,24 @@
   "name": "eslint-config-x",
   "version": "1.0.0",
   "description": "A set of ESLint rules.",
-  "main": "index.js",
-  "keywords": [
-    "eslint",
-    "eslintconfig",
-    "eslint-config"
-  ],
   "author": "Yuwei",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/keyfoxth/eslint-config-x.git"
   },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "eslint-config"
+  ],
   "devDependencies": {
-    "eslint": ">=4.0.0"
+    "eslint": "^4.19.1"
+  },
+  "peerDependencies": {
+    "eslint": ">=4.19.1"
   },
   "license": "MIT"
 }
