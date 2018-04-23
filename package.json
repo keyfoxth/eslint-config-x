@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-x",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A set of ESLint rules.",
   "author": "Yuwei",
   "repository": {
